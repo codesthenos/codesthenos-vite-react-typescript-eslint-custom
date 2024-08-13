@@ -64,5 +64,6 @@ export default tseslint.config({
       allowHigherOrderFunctions: true,
       allowConciseArrowFunctionExpressionsStartingWithVoid: false
     }],
+    'react/prop-types': 'off',
   },
 })
