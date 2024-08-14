@@ -58,12 +58,12 @@ export default tseslint.config({
       ObjectExpression: 1,
       ImportDeclaration: 1,
     }],
-    '@typescript-eslint/explicit-function-return-type': ['warn', {
+    /*'@typescript-eslint/explicit-function-return-type': ['warn', {
       allowExpressions: true,
       allowTypedFunctionExpressions: true,
       allowHigherOrderFunctions: true,
       allowConciseArrowFunctionExpressionsStartingWithVoid: false
-    }],
+    }],*/
     'react/prop-types': 'off',
     '@typescript-eslint/consistent-type-imports': ['error', {
       prefer: 'type-imports',
